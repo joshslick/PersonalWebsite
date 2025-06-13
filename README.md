@@ -1,44 +1,46 @@
-# vCard - Personal portfolio
+# Joshua Slick – Personal Portfolio Website
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+This is a responsive **vCard-style portfolio website** built with HTML, CSS, and JavaScript. It showcases my background, skills, projects, and work experience as a Software Engineering student at Iowa State University.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## 🌐 Live Site
 
-## Demo
+[Visit the Portfolio](josh-software-engineer-website.netlify.app)  
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
-## Prerequisites
+---
 
-Before you begin, ensure you have met the following requirements:
+## 📁 Features
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- **Responsive layout** for mobile and desktop
+- Interactive sidebar with:
+  - Profile, email, and contact links
+  - Social media icons (GitHub, LinkedIn, Instagram)
+- **About Me** section with a short biography
+- **What I’m Doing** section highlighting:
+  - Web development
+  - Hardware & embedded systems
+  - Software testing
+  - Programming projects
+- **Resume** with education and work experience
+- **Skills** including languages, tools, and hardware experience
+- **Portfolio** showcasing live projects and GitHub repositories
 
-## Installing vCard
+---
 
-To install **vCard**, follow these steps:
+## 🛠 Tech Stack
 
-Linux and macOS:
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Ionicons** for icons
+- **Google Fonts** (Poppins)
+- **Netlify** for hosting
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+---
 
-Windows:
+## 📸 Screenshots
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
 
-## Contact
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
-
-## License
-
-MIT
+```md
+![Portfolio Screenshot](./assets/images/image.png)
