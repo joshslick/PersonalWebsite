@@ -56,9 +56,9 @@
 
   /* solid */
 
-  --jet: hsl(0, 0%, 22%);
+  --jet: hsl(0, 92%, 47%);
   --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
+  --eerie-black-1: hsl(12, 88%, 3%);
   --eerie-black-2: hsl(240, 2%, 12%);
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
@@ -1026,7 +1026,25 @@ main {
   font-weight: var(--fw-300);
 }
 
+.project-item {
+  width: 100%;           /* full width of container or define a specific width */
+  max-width: 250px;      /* adjust as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.project-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;   /* ensures a square ratio */
+  overflow: hidden;
+}
+
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;     /* fills space and crops to fit */
+}
 
 
 
