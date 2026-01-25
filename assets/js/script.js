@@ -133,3 +133,24 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+
+// Project About Dropdown Toggle
+function toggleAbout(button) {
+  const description = button.nextElementSibling;
+  const isActive = description.classList.contains('active');
+  
+  // Close all other open descriptions
+  const allDescriptions = document.querySelectorAll('.project-description');
+  const allButtons = document.querySelectorAll('.project-about-btn');
+  
+  allDescriptions.forEach(desc => desc.classList.remove('active'));
+  allButtons.forEach(btn => btn.classList.remove('active'));
+  
+  // Toggle current description
+  if (!isActive) {
+    description.classList.add('active');
+    button.classList.add('active');
+  }
+}
