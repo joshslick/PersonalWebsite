@@ -459,27 +459,6 @@
     </div>
 
     <ul class="project-list">
-
-      <li class="project-item" data-filter-item data-category="Projects">
-        <a href="https://github.com/hpeacher/ERPHospitalSystem/tree/iteration3-Josh" target="_blank" rel="noopener">
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/Hospital.jpg" alt="Hospital" loading="lazy" class="project-thumbnail">
-          </figure>
-          <h3 class="project-title">Hospital Management system</h3>
-          <p class="project-category">Projects</p>
-        </a>
-        <button class="project-about-btn" onclick="event.stopPropagation(); toggleAbout(this)">
-          <ion-icon name="chevron-down-outline"></ion-icon>
-          <span>About</span>
-        </button>
-        <div class="project-description">
-          <p>A Java-based Hospital Management System developed as part of a team project. Implements multi-module ERP-style functionality including patient records, staff management, scheduling, and billing workflows. Built with object-oriented design principles, database integration, and role-based access logic to simulate real-world healthcare operations.</p>
-        </div>
-      </li>
-
       <li class="project-item" data-filter-item data-category="websites">
         <a href="https://personaguesser.com/" target="_blank" rel="noopener">
           <figure class="project-img">
@@ -499,7 +478,31 @@
           <p>A full-stack web game inspired by Wordle and Hangman where users guess daily personas using letter inputs and progressive hints. Built with React frontend and Supabase (PostgreSQL) backend for user authentication, streak tracking, and data persistence. Deployed as a live production web application.</p>
         </div>
       </li>
+      <li class="project-item" data-filter-item data-category="projects">
+  <a href="https://github.com/joshslick/concurrent-journaling-system" target="_blank" rel="noopener">
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="code-slash-outline"></ion-icon>
+      </div>
+      <img src="./assets/images/journaling.png" alt="Metadata Journaling Project" loading="lazy" class="project-thumbnail">
+    </figure>
+    <h3 class="project-title">Metadata Journaling Service</h3>
+    <p class="project-category">projects</p>
+  </a>
 
+  <button class="project-about-btn" onclick="event.stopPropagation(); toggleAbout(this)">
+    <ion-icon name="chevron-down-outline"></ion-icon>
+    <span>About</span>
+  </button>
+
+  <div class="project-description">
+    <p>
+      A multi-threaded journaling layer written in C simulating crash-consistent file system recovery. 
+      Implemented bounded circular buffers, pthread-based worker pipelines, and synchronization using 
+      mutexes, condition variables, and semaphores to handle asynchronous disk I/O and maximize concurrency.
+    </p>
+  </div>
+</li>
       <li class="project-item" data-filter-item data-category="websites">
         <a href="https://contract-vault.vercel.app/" target="_blank" rel="noopener">
           <figure class="project-img">
@@ -519,6 +522,26 @@
           <p>A security-focused web application for storing and managing sensitive personal contracts using client-side encryption. All data is encrypted locally, with no plaintext data stored or transmitted. Designed with a zero-server-trust model and secure session handling to protect user privacy.</p>
         </div>
       </li>
+      <li class="project-item" data-filter-item data-category="Projects">
+        <a href="https://github.com/hpeacher/ERPHospitalSystem/tree/iteration3-Josh" target="_blank" rel="noopener">
+          <figure class="project-img">
+            <div class="project-item-icon-box">
+              <ion-icon name="eye-outline"></ion-icon>
+            </div>
+            <img src="./assets/images/Hospital.jpg" alt="Hospital" loading="lazy" class="project-thumbnail">
+          </figure>
+          <h3 class="project-title">Hospital Management system</h3>
+          <p class="project-category">Projects</p>
+        </a>
+        <button class="project-about-btn" onclick="event.stopPropagation(); toggleAbout(this)">
+          <ion-icon name="chevron-down-outline"></ion-icon>
+          <span>About</span>
+        </button>
+        <div class="project-description">
+          <p>A Java-based Hospital Management System developed as part of a team project. Implements multi-module ERP-style functionality including patient records, staff management, scheduling, and billing workflows. Built with object-oriented design principles, JSON integration, and role-based access logic to simulate real-world healthcare operations.</p>
+        </div>
+      </li>
+
 
       <li class="project-item" data-filter-item data-category="Hardware">
         <a href="https://github.com/joshslick/cPRE288/tree/master/" target="_blank" rel="noopener">
@@ -548,7 +571,7 @@
             </div>
             <img src="./assets/images/CarShoppingPic.png" alt="Car" loading="lazy" class="project-thumbnail">
           </figure>
-          <h3 class="project-title">Car Shopping with frontend and backend code</h3>
+          <h3 class="project-title">Full Stack Car Shopping</h3>
           <p class="project-category">Websites</p>
         </a>
         <button class="project-about-btn" onclick="event.stopPropagation(); toggleAbout(this)">
